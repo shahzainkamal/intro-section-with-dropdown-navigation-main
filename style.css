@@ -1,0 +1,144 @@
+:root {
+  /* Neutral Colours */
+  --clr-neutral-100: hsl(0, 0%, 98%);
+  --clr-neutral-200: hsl(0, 0%, 41%);
+  --clr-neutral-300: hsl(0, 0%, 8%);
+}
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width:767px) {
+  .hamberger-icon{
+    
+  }
+  .close-icon{
+    display: none;
+  }
+  .navigation{
+    display: none;
+    padding-left: 70%;
+  }
+  .buttons{
+    display: none;
+  }
+  
+ 
+  .section-section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+
+}
+@media screen and (min-width:767px) {
+  
+  .hamberger-icon{
+display: none;
+  }
+}
+
+/* First Section */
+.mobile-image{
+  /* display: none; */
+}
+.hamberger-icon {
+  /* display: none; */
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 94%;
+}
+.close-icon{
+  display: none;
+  width: 50px;
+  height: 50px;}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: bold;
+}
+ul {
+  margin: 0;
+  padding-right: 550px;
+}
+.navigation ul li {
+  display: inline-block;
+  padding-right: 40px;
+  font-size: 16px;
+  color: var(--clr-neutral-200);
+}
+.navigation ul li:hover{
+  cursor: pointer;
+  color: black;
+}
+.first-button {
+  border-radius: 10px;
+  color: var(--clr-neutral-200);
+  border: none;
+  font-size: 17px;
+  background-color: white;
+}
+.first-button:hover {
+  color: black;
+}
+.second-button {
+  border-radius: 10px;
+  color: var(--clr-neutral-200);
+  font-size: 17px;
+}
+.second-button:hover {
+  color: black;
+  border-color: var(--clr-neutral-200);
+}
+
+/* Second Section */
+
+h1 {
+  font-size: 103px;
+}
+.first-para{
+  color: var(--clr-neutral-200);
+  margin: 0;
+  width: 80%;
+}
+.third-button {
+  background-color: black;
+  color: white;
+  padding: 17px;
+  border-radius: 10px;
+  /* border: none; */
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.third-button:hover{
+    background-color: white;
+    color: black;
+}
+.second-section {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  gap: 50px;
+}
+.first-image img {
+  width: 1%;
+}
+.second-image {
+  width: 80%;
+}
+.images{
+  margin-left: 100px;
+  margin-top: 100px;
+
+  
+}
+.images img{
+  padding-left: 50px;
+}
